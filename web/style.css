@@ -49,10 +49,7 @@ body {
   margin: 12px 0;
   position: relative;
 }
-img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
+
 .App_cardTitle_29nyq {
   font-size: 24px;
   font-weight: 700;
@@ -156,13 +153,95 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.App_cartItem_lfA9I {
-  display: flex;
-  padding: 20px 0;
+
+.App_cartItemRight_2LNcC {
+  flex: 1;
 }
 .App_cartItemImageBlock_wRE4E img {
   display: block;
   width: 140%;
   transform: rotate(-28deg) translateY(-40px);
   filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+}
+
+.App_cartItemName_3he6M {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.App_cartItemPrice_R0sr2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.App_cartItemCount_1GCCN {
+  flex: 1;
+}
+.App_cartItemCountButton_Gr8VG {
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 100%;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.App_cartItemCountNumber_1Evq9 {
+  font-size: 14px;
+  margin: 0 8px;
+  width: 20px;
+  text-align: center;
+}
+.App_cartItemRemove_1GiLR {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6c90e;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.App_cartItemLeft_1HqDk {
+  flex: 0;
+}
+.App_cartItemActions_13kia,
+.App_cartItemCount_1GCCN {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.App_cartItemImageBlock_wRE4E {
+  border: 1px solid red;
+}
+.App_cartItemImageBlock_wRE4E img {
+  display: flex;
+  width: 100%;
+  transform: rotate(-28deg) translateY(-40px);
+  filter: drop-shadow(0 30px 20px rgba(0, 0, 0, 0.2));
+  padding: none;
+}
+.App_cartItemLeft_1HqDk {
+  flex: 0;
+  width: 50%;
+}
+.App_cartItem_lfA9I {
+  color: #303841;
+  font-family: Rubik, sans-serif;
 }
