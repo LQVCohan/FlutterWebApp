@@ -91,14 +91,17 @@ img {
   align-items: center;
   overflow: hidden;
 }
-.App_shopItemBottom_3401_ {
+.App_shopItemBottom_3401 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid red;
 }
+
 .App_shopItemPrice_2SLiG {
   font-size: 18px;
   font-weight: 700;
+  width: fit-content;
 }
 .App_shopItemImage_341iU img {
   display: block;
@@ -109,9 +112,6 @@ img {
 }
 .App_shopItem_3FgVU {
   padding: 40px 0;
-  div {
-    display: block;
-  }
 }
 .App_card_38zmH:before {
   content: "";
