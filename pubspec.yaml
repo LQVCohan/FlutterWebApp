@@ -1,10 +1,21 @@
 name: FirstFrojectDart
 description: Đây là ứng dụng biên dịch từ Dart
-
+flutter:
+  assets:
+    - assets/appimages/floppy.jpg
+    - assets/appimages/iphone.jpg
+    - assets/appimages/laptop.jpg
+    - assets/appimages/pendrive.jpg
+    - assets/appimages/pixel.jpg
+    - assets/appimages/tablet.jpg
 environment:
   sdk: "^3.2.0"
 dependencies:
   build_runner: ^2.4.7 # (cần lấy bản mới tại) https://pub.dev/packages/build_runner#-installing-tab-
   build_test: ^2.2.2 # https://pub.dev/packages/build_test#-installing-tab-
   build_web_compilers: ^4.0.7 # https://pub.dev/packages/build_web_compilers#-installing-tab-
-
+  http: ^1.1.2
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path_provider: any
